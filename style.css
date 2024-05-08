@@ -1,7 +1,4 @@
-header{
-    background-color: #000000bb;
-    color: rgb(0, 0, 0);
-}*{
+*{
     margin: 0;
     padding: 0;
 }
@@ -9,7 +6,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .cabecalho {
-    background-color: #1058b6;
+    background-color: #5480c7;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
@@ -37,7 +34,7 @@ body {
 }
  
 #escola{
-    background-image: linear-gradient(#034dc4,#aec8f0ef);
+    background-image: linear-gradient(#5480c7,#053c8fef);
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -54,6 +51,7 @@ body {
 }
  
 #estudante{
+    background-image: linear-gradient(#5480c7,#053c8fef);
     padding: 25px 0;
 }
  
@@ -79,6 +77,10 @@ body {
 .estudante-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.estudante-nome{
+    color:aliceblue
 }
  
 .rodape{
